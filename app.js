@@ -12,7 +12,7 @@ const config  = require('config');
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
-// Configuración de enternos
+// Configuración de entornos
 console.log('Aplicación ' + config.get('nombre'));
 console.log('Base de datos Server ' + config.get('configDB.host'));
 
