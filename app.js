@@ -8,7 +8,7 @@ const config  = require('config');
 
 //const loging  = require('./middleware/logger.js')
 
-// Middleware
+// Middleware 
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
